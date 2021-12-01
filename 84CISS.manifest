@@ -1,9 +1,12 @@
 CACHE MANIFEST 
+# v1.12 V8 25/11/2021
+
 index.html
 lndex.html
 jail\jb.js
 kex\exploit.js
 payloads\app2usb.js
+payloads\ArabicMod132.js
 payloads\backup.js
 payloads\BeefQueefMod133.js
 payloads\disableaslr.js
@@ -57,3 +60,6 @@ webkit\1.jpg
 webkit\int64.js
 webkit\ps4.js
 webkit\utils.js
+
+NETWORK:
+*

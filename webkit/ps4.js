@@ -224,28 +224,28 @@ function toggle_payload(pld){
 		document.getElementById("progress").innerHTML="Loading GoldHen V1.0.. Please wait..";
 		preloadScripts(['payloads/preloader.js', 'payloads/goldhen10.js', 'payloads/loader.js']);
 	}else if(pld == "webrte"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		document.getElementById("progress").innerHTML="Loading Webrte.. Please wait..";
 		preloadScripts(['payloads/preloader.js', 'payloads/webrte.js', 'payloads/loader.js']);
 	}else if(pld == "orbistoolbox"){
-	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+	document.getElementById("progress").innerHTML="Loading Orbis-Toolbox.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/orbistoolbox.js', 'payloads/loader.js']);
     }else if(pld == "webactivator"){
 	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/payload.js', 'payloads/loader.js', 'payloads/frontend.js']);}
 	else if(pld == "fan50"){
-	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+	document.getElementById("progress").innerHTML="Loading fan-50°.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/fan50.js', 'payloads/loader.js']);	
 	}else if(pld == "fan55"){
-	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+	document.getElementById("progress").innerHTML="Loading fan-55°.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/fan55.js', 'payloads/loader.js']);	
 	}else if(pld == "fan60"){
-    document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+    document.getElementById("progress").innerHTML="Loading fan-60°.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/fan60.js', 'payloads/loader.js']);	
 	}else if(pld == "fan65"){
-    document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+    document.getElementById("progress").innerHTML="Loading fan-65°.. Please wait..";
     preloadScripts(['payloads/preloader.js', 'payloads/fan65.js', 'payloads/loader.js']);	
     }else if(pld == "fan70"){
-	document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+	document.getElementById("progress").innerHTML="Loading fan-70°.. Please wait..";
 	preloadScripts(['payloads/preloader.js', 'payloads/fan70.js', 'payloads/loader.js']);			
 	}else if(pld == "Silver755"){
 		document.getElementById("progress").innerHTML="Loading Platinum755x82-v1.1b.. Please wait..";
@@ -256,8 +256,11 @@ function toggle_payload(pld){
 		}else if(pld == "BeefQueefMod133"){
 		document.getElementById("progress").innerHTML="Loading Gta 5 BeefQueefMod 1.33.. Please wait..";
 		preloadScripts(['payloads/preloader.js', 'payloads/BeefQueefMod133.js', 'payloads/loader.js']);
+    }else if(pld == "ArabicMod132"){
+		document.getElementById("progress").innerHTML="Loading Gta 5 ArabicMod 1.32 Please wait..";
+		preloadScripts(['payloads/preloader.js', 'payloads/ArabicMod132.js', 'payloads/loader.js']);
 		}else if(pld == "rdr2mod124"){
-		document.getElementById("progress").innerHTML="Loading Rdr2 Mod Please wait..";
+		document.getElementById("progress").innerHTML="Loading Rdr2 Mod 1.24 Please wait..";
 		preloadScripts(['payloads/preloader.js', 'payloads/rdr2mod124.js', 'payloads/loader.js']);
     }
 			
